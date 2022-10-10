@@ -1,0 +1,35 @@
+{
+  "name": "automatisering-traening-stephaniesommer",
+  "version": "1.0.0",
+  "description": "- en figma fil (i assets mappen)\r - en index.html med 5 forud-definerede sections\r - en style.css som er tom (den er linket til html). Her kan du skrive din css.\r - en javascript fil med data (`data.js`)\r - en javascript fil hvor du skal skrive din kode (`index.js`)\r - begge javascript filer er loadet i html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rts-cmk-wu08/automatisering-traening-StephanieSommer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rts-cmk-wu08/automatisering-traening-StephanieSommer/issues"
+  },
+  "homepage": "https://github.com/rts-cmk-wu08/automatisering-traening-StephanieSommer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "browserslist": "> 0.25%, not dead"
+}

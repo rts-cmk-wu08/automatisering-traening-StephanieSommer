@@ -1,4 +1,5 @@
-let article = function() {
+
+let article = function(hero) {
 
 let element = document.createElement('article')
 element.classList.add('headerArticle')
@@ -8,6 +9,8 @@ element.innerHTML = `
     <p>${hero.copy}</p>
     <a href="${hero.icon}">Explore</a>
 `
+
+
 
 return element
 }

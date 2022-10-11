@@ -1,5 +1,6 @@
 import { hero } from "../../data.js";
 import "./header.scss"
+import "./headerArticle.js"
 
 let header = function () {
     let element = document.createElement("header");
@@ -8,6 +9,8 @@ let header = function () {
     element.innerHTML = `
     <img src="${hero.image}" alt="">
 `;
+
+element.append(headerArticle(hero))
 
     return element;
 };

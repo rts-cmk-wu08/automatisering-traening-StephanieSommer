@@ -10,8 +10,6 @@ element.innerHTML = `
     <a href="${hero.icon}">Explore</a>
 `
 
-
-
 return element
 }
 

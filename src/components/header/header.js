@@ -10,7 +10,7 @@ let header = function () {
     <img src="${hero.image}" alt="">
 `;
 
-element.append(headerArticle(hero))
+// element.append(headerArticle(hero))
 
     return element;
 };
